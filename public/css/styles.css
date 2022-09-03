@@ -139,6 +139,19 @@ form input[type='submit']:hover,
     margin-top: 1.5em;
 }
 
+.dashboard h2{
+    margin: 1em 0;
+    color: #fff;
+    border-left: 4px solid #f9682d;
+    padding: 0.3em;
+}
+
+.dashboard h3{
+    margin: 1em 0;
+    color: #fff;
+    padding: 0.3em;
+}
+
 /* FOOTER */
 footer { 
     height: 150px;
@@ -152,5 +165,7 @@ footer span {
     font-weight: bold;
     color: #f9682d;
 }
+
+
 
 
