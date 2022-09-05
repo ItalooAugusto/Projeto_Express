@@ -72,7 +72,7 @@ app.use("/", authRoutes);
 app.get("/", ToughController.showToughts);
 
 conn
-//.sync({force: true})
+  //.sync({force: true})
   .sync()
   .then(() => {
     app.listen(3000);
